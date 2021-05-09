@@ -1,0 +1,45 @@
+/* GERAIS */
+
+body {
+    background-color: rgb(0,0,0);
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(
+        180deg, 
+        rgba(0,0,0,0.69) 0%,
+        rgba(0,0,0,0) 100%
+    );
+}
+
+header img {
+    width: 150px;
+}
+
+/* LOGIN */
+
+body.bg_filmes {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#caixa_login {
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    margin-top:75px;
+}
+
+/* HOME */
+
+.menu_list {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.menu_list li {
+    display: inline-block;
+    margin-left: 15px;
+}
